@@ -55,4 +55,3 @@ set wildmode=longest:list,full
 "显示和隐藏NERDTree
 nnoremap <F2> :NERDTreeToggle<CR>
 "
-"
