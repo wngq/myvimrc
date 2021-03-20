@@ -3,8 +3,11 @@ set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8
 set encoding=utf-8
 
-set nu "显示行号
+set nu                  "显示行号
+
 set textwidth=80        "设置行宽，即一行显示多少个字符
+set wrapmargin=2        "指定折行处与窗口右边缘空出的字符数
+set linebreak           "不会在单词内部折行
 
 " Normally we use vim-extensions. If you want true vi-compatibility
 " remove change the following statements
@@ -54,4 +57,4 @@ set wildmode=longest:list,full
 
 "显示和隐藏NERDTree
 nnoremap <F2> :NERDTreeToggle<CR>
-"
+
